@@ -1,0 +1,53 @@
+{
+  "name": "__MSG_extName__",
+  "default_locale": "en",
+  "manifest_version": 2,
+  "version": "0.42",
+  "version_name": "2.4.0",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "page": "app_main.html"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "gcm",
+    {"fileSystem": ["write"]},
+    "unlimitedStorage",
+    "notifications",
+    "clipboardRead",
+    {"socket": ["tcp-connect", "tcp-listen", "udp-bind", "udp-send-to", "resolve-host", "resolve-proxy"]},
+    "accessibilityFeatures.read",
+    "https://clients2.google.com/",
+    "clipboardWrite",
+    "alarms",
+    "storage",
+    "overrideEscFullscreen",
+    "fullscreen"]
+,
+  "requirements": {
+    "3D": {
+      "features": ["webgl"]
+    }
+  },
+  "kiosk_enabled": true,
+  "import": [{"id": "mfaihdlpglflfgpfjcifdjdjcckigekc"}],
+  "file_handlers": {},
+  
+  
+  "arc_metadata": {
+    "apkList": [
+      "FRC Spyder_v2.4.0_apkpure.com.apk"
+    ],
+    "enableExternalDirectory": false,
+    "formFactor": "tablet",
+    "name": "FRC Spyder",
+    "orientation": "landscape",
+    "packageName": "com.dwabtech.frcspyder",
+    "resize": "reconfigure"
+  }
+}
